@@ -1,4 +1,4 @@
-MealToday
+*MealToday*
 MealToday is a web application designed to help users discover random meals and explore various meal categories effortlessly. Say goodbye to the dilemma of deciding what to cook each day!
 
 Features
