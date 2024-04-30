@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>
+            MealToday
+        </title>
+        <meta charset="UTf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+         
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <img src="fried-rice.png" alt="MealToday Icon" class="header-icon">
+                <h1>Welcome to MealToday</h1>
+                <p style="text-align: center;">Never wonder what to cook again!!</p>
+                <div class="search-bar">
+                    <input type="text" id="searchInput" placeholder="Search for a meal...">
+                    <button id="searchButton">Search</button>
+                </div>
+            </div>
+        </header>
+        <section id="randomMeal">
+            <div>
+                <h2>RANDOM MEAL</h2>
+                <div id="mealContent" class="meal-container">
+    
+                <div id="ingredientsContainer" class="ingredients-container"></div>
+            </div>
+            </div>
+        </section>
+        <section id="searchedCategories" class="hidden">
+            <div>
+                <h2>LIST OF SEARCHED MEAL CATEGORIES</h2>
+                <div id="searchedCategoryContent"></div>
+            </div>
+
+        </section>
+        <script src="meal.js"></script>
+    </body>
+</html>
